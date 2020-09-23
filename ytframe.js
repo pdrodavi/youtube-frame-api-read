@@ -4,7 +4,7 @@ function onYouTubeIframeAPIReady() {
     var t = document.createElement("img");
     
     t.setAttribute("id", "youtube-icon"), 
-    t.style.cssText = "cursor:pointer;cursor:hand", e.appendChild(t);
+    t.style.cssText = "width:30px;cursor:pointer;cursor:hand", e.appendChild(t);
     
     var a = document.createElement("div");
     a.setAttribute("id", "youtube-player"), 
