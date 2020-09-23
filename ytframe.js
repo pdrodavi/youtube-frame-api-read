@@ -4,7 +4,7 @@ function onYouTubeIframeAPIReady() {
     var a = document.createElement("div");
     a.setAttribute("id", "youtube-player"), e.appendChild(a);
     var o = function (e) {
-        var a = e ? "IDzX9gL.png" : "quyUPXN.png";
+        var a = e ? "EQlGjkW.png" : "FSDW3V6.png";
         t.setAttribute("src", "https://i.imgur.com/" + a)
     };
     e.onclick = function () {
