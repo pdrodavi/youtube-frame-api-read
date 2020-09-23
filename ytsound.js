@@ -4,7 +4,7 @@ function onYouTubeIframeAPIReady() {
 
   var ctrlq = document.getElementById("youtube-audio");
   ctrlq.innerHTML = '<img id="youtube-icon" src=""/><div id="youtube-player"></div>';
-  ctrlq.style.cssText = 'width:100px;margin:2em auto;cursor:pointer;cursor:hand;display:none';
+  ctrlq.style.cssText = 'width:50px;margin:2em auto;cursor:pointer;cursor:hand;display:none';
   ctrlq.onclick = toggleAudio;
 
   player = new YT.Player('youtube-player', {
